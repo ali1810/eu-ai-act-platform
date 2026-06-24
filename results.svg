@@ -1,0 +1,87 @@
+<svg viewBox="0 0 900 560" xmlns="http://www.w3.org/2000/svg" font-family="Inter,Arial,sans-serif">
+  <rect width="900" height="560" fill="#f0f2f6" rx="12"/>
+
+  <!-- Sidebar -->
+  <rect width="200" height="560" fill="#0d1b2a" rx="12 0 0 12"/>
+  <text x="100" y="50" text-anchor="middle" font-size="26">🇪🇺</text>
+  <text x="100" y="74" text-anchor="middle" fill="white" font-size="13" font-weight="700">EU AI Act</text>
+  <text x="100" y="90" text-anchor="middle" fill="#aab" font-size="10">Compliance Platform</text>
+  <line x1="20" y1="106" x2="180" y2="106" stroke="#2a3a5a" stroke-width="1"/>
+  <text x="26" y="130" fill="#aab" font-size="11">🏠 Home</text>
+  <text x="26" y="158" fill="#aab" font-size="11">🔍 New Assessment</text>
+  <rect x="12" y="170" width="176" height="28" fill="#1a237e" rx="6"/>
+  <text x="26" y="189" fill="white" font-size="11" font-weight="700">📊 Results Dashboard</text>
+  <text x="26" y="218" fill="#aab" font-size="11">📁 My Projects</text>
+  <text x="26" y="246" fill="#aab" font-size="11">📖 EU AI Act Guide</text>
+
+  <!-- Header -->
+  <text x="216" y="34" fill="#1a237e" font-size="17" font-weight="800">📊 Results Dashboard</text>
+
+  <!-- Gauge chart (simulated) -->
+  <rect x="216" y="46" width="230" height="200" fill="white" rx="12" stroke="#e0e0e0" stroke-width="1"/>
+  <!-- Gauge arc background -->
+  <path d="M 280 190 A 80 80 0 1 1 390 190" fill="none" stroke="#ffebee" stroke-width="20"/>
+  <path d="M 280 190 A 80 80 0 0 1 300 124" fill="none" stroke="#fff8e1" stroke-width="20"/>
+  <path d="M 300 124 A 80 80 0 0 1 390 190" fill="none" stroke="#e8f5e9" stroke-width="20"/>
+  <!-- Score arc (74%) -->
+  <path d="M 280 190 A 80 80 0 0 1 365 128" fill="none" stroke="#f9a825" stroke-width="20" stroke-linecap="round"/>
+  <!-- Center text -->
+  <text x="335" y="182" text-anchor="middle" fill="#1a237e" font-size="26" font-weight="800">74%</text>
+  <text x="335" y="200" text-anchor="middle" fill="#888" font-size="9">Compliance Score</text>
+  <!-- Verdict -->
+  <text x="335" y="228" text-anchor="middle" fill="#f9a825" font-size="13" font-weight="800">⚠️ REQUIRES ACTION</text>
+
+  <!-- Risk tier box -->
+  <rect x="456" y="46" width="428" height="200" fill="white" rx="12" stroke="#e0e0e0" stroke-width="1"/>
+  <!-- High risk banner -->
+  <rect x="468" y="58" width="404" height="68" fill="#fff3e0" rx="8" stroke="#e65100" stroke-width="1"/>
+  <rect x="468" y="58" width="5" height="68" fill="#e65100" rx="3 0 0 3"/>
+  <text x="484" y="82" fill="#e65100" font-size="14" font-weight="800">🟠 HIGH RISK</text>
+  <text x="484" y="100" fill="#555" font-size="11">HireBot AI — Employment Screening System</text>
+  <text x="484" y="116" fill="#999" font-size="9">Assessment ID: a3f7b2c1</text>
+
+  <!-- Bar chart -->
+  <text x="468" y="152" fill="#444" font-size="10" font-weight="600">Article Check Summary</text>
+  <!-- Compliant bar -->
+  <rect x="510" y="160" width="90" height="14" fill="#2e7d32" rx="3"/>
+  <text x="468" y="172" fill="#555" font-size="9">Compliant</text>
+  <text x="606" y="172" fill="#555" font-size="9">3</text>
+  <!-- Partial bar -->
+  <rect x="510" y="178" width="50" height="14" fill="#f9a825" rx="3"/>
+  <text x="468" y="190" fill="#555" font-size="9">Partial</text>
+  <text x="566" y="190" fill="#555" font-size="9">2</text>
+  <!-- Non-compliant bar -->
+  <rect x="510" y="196" width="130" height="14" fill="#c62828" rx="3"/>
+  <text x="468" y="208" fill="#555" font-size="9">Non-Compliant</text>
+  <text x="646" y="208" fill="#555" font-size="9">4</text>
+  <text x="468" y="228" fill="#999" font-size="8">Pass threshold: 60%</text>
+
+  <!-- Article checks section -->
+  <text x="216" y="268" fill="#1a237e" font-size="13" font-weight="700">📋 Article-by-Article Results</text>
+
+  <!-- Art.9 Non-compliant -->
+  <rect x="216" y="278" width="668" height="42" fill="#ffebee" rx="8" stroke="#ef9a9a" stroke-width="1"/>
+  <text x="232" y="297" fill="#c62828" font-size="11" font-weight="700">❌ Art.9 — Risk Management System  (0%)</text>
+  <text x="232" y="313" fill="#555" font-size="9">No risk management system found. Bias testing and accuracy metrics are absent.</text>
+
+  <!-- Art.10 Partial -->
+  <rect x="216" y="326" width="668" height="42" fill="#fff8e1" rx="8" stroke="#ffe082" stroke-width="1"/>
+  <text x="232" y="345" fill="#f9a825" font-size="11" font-weight="700">⚠️ Art.10 — Data and Data Governance  (50%)</text>
+  <text x="232" y="361" fill="#555" font-size="9">Partial data governance: bias testing exists but formal governance policy is missing.</text>
+
+  <!-- Art.11 Non-compliant -->
+  <rect x="216" y="374" width="668" height="42" fill="#ffebee" rx="8" stroke="#ef9a9a" stroke-width="1"/>
+  <text x="232" y="393" fill="#c62828" font-size="11" font-weight="700">❌ Art.11 — Technical Documentation  (0%)</text>
+  <text x="232" y="409" fill="#555" font-size="9">No technical documentation found. Mandatory before market placement.</text>
+
+  <!-- Art.14 Compliant -->
+  <rect x="216" y="422" width="668" height="42" fill="#e8f5e9" rx="8" stroke="#a5d6a7" stroke-width="1"/>
+  <text x="232" y="441" fill="#2e7d32" font-size="11" font-weight="700">✅ Art.14 — Human Oversight  (100%)</text>
+  <text x="232" y="457" fill="#555" font-size="9">Human oversight mechanisms implemented — monitoring, pause and override capabilities confirmed.</text>
+
+  <!-- Gap analysis preview -->
+  <rect x="216" y="472" width="668" height="50" fill="#e3f2fd" rx="8" stroke="#1565c0" stroke-width="1"/>
+  <text x="232" y="490" fill="#1565c0" font-size="10" font-weight="700">🤖 AI Gap Analysis</text>
+  <text x="232" y="506" fill="#333" font-size="9">The primary compliance gaps are in risk management (Art.9) and technical documentation (Art.11).</text>
+  <text x="232" y="518" fill="#333" font-size="9">Immediate priority: establish a risk management system and create Annex IV documentation.</text>
+</svg>

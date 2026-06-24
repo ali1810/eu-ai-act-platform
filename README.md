@@ -1,7 +1,26 @@
 <!-- Banner -->
 <div align="center">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Flag_of_Europe.svg/320px-Flag_of_Europe.svg.png" width="80" alt="EU Flag"/>
-  
+
+  <!-- EU Flag inline SVG — no external dependency -->
+  <svg width="80" height="54" viewBox="0 0 5 3.333" xmlns="http://www.w3.org/2000/svg">
+    <rect width="5" height="3.333" fill="#003399"/>
+    <g fill="#FFCC00" transform="translate(2.5,1.667)">
+      <g id="s"><polygon id="p" points="0,-0.5 0.118,-0.162 0.476,-0.162 0.191,0.062 0.294,0.405 0,0.2 -0.294,0.405 -0.191,0.062 -0.476,-0.162 -0.118,-0.162" transform="scale(0.2)"/></g>
+      <use href="#s" transform="rotate(0)   translate(0,-0.7)"/>
+      <use href="#s" transform="rotate(30)  translate(0,-0.7)"/>
+      <use href="#s" transform="rotate(60)  translate(0,-0.7)"/>
+      <use href="#s" transform="rotate(90)  translate(0,-0.7)"/>
+      <use href="#s" transform="rotate(120) translate(0,-0.7)"/>
+      <use href="#s" transform="rotate(150) translate(0,-0.7)"/>
+      <use href="#s" transform="rotate(180) translate(0,-0.7)"/>
+      <use href="#s" transform="rotate(210) translate(0,-0.7)"/>
+      <use href="#s" transform="rotate(240) translate(0,-0.7)"/>
+      <use href="#s" transform="rotate(270) translate(0,-0.7)"/>
+      <use href="#s" transform="rotate(300) translate(0,-0.7)"/>
+      <use href="#s" transform="rotate(330) translate(0,-0.7)"/>
+    </g>
+  </svg>
+
   <h1>🇪🇺 EU AI Act Compliance Platform</h1>
   
   <p><strong>Self-service AI compliance assessment, risk classification, and audit reporting tool</strong><br>
@@ -16,7 +35,7 @@
   </p>
 
   <p>
-    <a href="https://ali1810-eu-ai-act-platform-app.streamlit.app">
+    <a href="https://YOUR_USERNAME-eu-ai-act-platform-app.streamlit.app">
       <img src="https://img.shields.io/badge/🚀 Live Demo-Streamlit Cloud-FF4B4B?style=for-the-badge"/>
     </a>
   </p>
@@ -43,9 +62,10 @@ Any team building or deploying an AI system can use this platform to:
 
 ## 🖼️ Screenshots
 
-| Dashboard | Assessment Form | Results |
+| 🏠 Dashboard | 🔍 Assessment Form | 📊 Results |
 |---|---|---|
-| Risk tier overview + stats | Submit your AI project | Score, article checks, gap analysis |
+| ![Dashboard](docs/screenshots/dashboard.svg) | ![Assessment](docs/screenshots/assessment.svg) | ![Results](docs/screenshots/results.svg) |
+| Risk tier overview + live stats | Submit project details | Score gauge + article checks + gap analysis |
 
 ---
 
@@ -55,7 +75,7 @@ Any team building or deploying an AI system can use this platform to:
 
 ```bash
 # 1. Clone
-git clone https://github.com/ali1810/eu-ai-act-platform.git
+git clone https://github.com/YOUR_USERNAME/eu-ai-act-platform.git
 cd eu-ai-act-platform
 
 # 2. Set up environment
@@ -80,7 +100,7 @@ streamlit run app.py
 ### Option B — Standalone Streamlit only (no backend)
 
 ```bash
-git clone https://github.com/ali1810/eu-ai-act-platform.git
+git clone https://github.com/YOUR_USERNAME/eu-ai-act-platform.git
 cd eu-ai-act-platform
 pip install -r requirements.txt
 streamlit run app.py
@@ -178,7 +198,7 @@ The platform uses **LLMs** to provide human-readable gap analysis explaining:
 
 Your live URL:
 ```
-[https://eu-ai-act-platform.streamlit.app/]
+https://YOUR_USERNAME-eu-ai-act-platform-app-xxxxx.streamlit.app
 ```
 
 ---
